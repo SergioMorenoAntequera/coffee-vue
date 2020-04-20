@@ -17,8 +17,7 @@ export default {
   props: ['title'],
   data: function() {
     return {
-
-        //   image: image
+      //image: image
     };
   }
 };
@@ -51,6 +50,7 @@ export default {
   padding: 65px 30px 130px 30px;
 }
 .titleAndImages .titleAndImagesContent .title h1 {
+  display: inline-block;
   font-weight: bolder;
   color: #BB9C79;
 }
@@ -59,6 +59,6 @@ export default {
   top: 120px;
   width: 100%;
   height: 50px;
-  /* background-color: red; */
+  background-color: red;
 }
 </style> 
